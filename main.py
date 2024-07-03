@@ -6,7 +6,10 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    while number > 0:
+        result.append(number % 2)
+        number//=2
+    
     print(*result)
     ########################################
     # Do not delete the return statement
